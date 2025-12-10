@@ -11,7 +11,7 @@ WPF 使用者控制項範例應用程式 - 客戶端教育訓練用
 - **MySecUserControl**: 進階使用者控制項，包含文本輸入功能
 - **主視窗**: 示範如何整合和使用上述控制項，並與之交互
 
-## ??? 技術堆棧
+## 技術堆棧
 
 | 項目 | 版本 |
 |------|------|
@@ -20,7 +20,7 @@ WPF 使用者控制項範例應用程式 - 客戶端教育訓練用
 | 框架 | WPF (Windows Presentation Foundation) |
 | IDE | Visual Studio 2019 或更新版本 |
 
-## ?? 專案結構
+## 專案結構
 
 ```
 WpfUserControlApp1/
@@ -36,7 +36,7 @@ WpfUserControlApp1/
     └── AssemblyInfo.cs     # 組件資訊
 ```
 
-## ?? 快速開始
+## 快速開始
 
 ### 前置需求
 
@@ -65,7 +65,7 @@ WpfUserControlApp1/
 5. **運行應用程式**
    - 按 `F5` 或選擇 Debug > Start Debugging
 
-## ?? 操作執行方式
+## 操作執行方式
 
 ### 1. 啟動應用程式
 
@@ -120,7 +120,7 @@ Button_Click() → mySecUserControl.GetSDPrompt → MessageBox.Show()
 | 2 | 點擊「獲取提示」按鈕 | 彈出訊息框顯示 "Hello WPF" |
 | 3 | 點擊訊息框「確定」按鈕 | 訊息框關閉，返回主視窗 |
 
-## ?? 核心概念
+## 核心概念
 
 ### 使用者控制項 (UserControl)
 
@@ -166,7 +166,7 @@ private void Button_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-## ?? 進階使用
+## 進階使用
 
 ### 修改控制項
 
@@ -197,7 +197,7 @@ public bool ValidateInput()
 }
 ```
 
-## ?? 常見問題 (FAQ)
+## 常見問題 (FAQ)
 
 ### Q: 如何在我的其他 WPF 應用程式中使用這些控制項?
 
